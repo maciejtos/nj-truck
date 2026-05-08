@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJ-Truck Tomasz Kot — Transport Materiałów Budowlanych i Usługi Koparko-Ładowarką</title>
+    <meta name="description"
+        content="NJ-Truck Tomasz Kot — transport materiałów budowlanych oraz usługi koparko-ładowarką. Katowice, Bieruń, Kobiór, Pszczyna, Tychy, Mikołów i okolice. Tel: 884 689 721">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="preload" as="image" href="assets/hero_optimized.jpg" fetchpriority="high">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- ========== NAVBAR ========== -->
+    <header id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" id="logoLink">
+                <img src="assets/logo_optimized.png" alt="NJ-Truck Logo" class="logo-img" width="36" height="36">
+                <span class="logo-text">NJ<span class="logo-accent">-Truck</span></span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html#uslugi" class="nav-link">Usługi</a>
+                <a href="index.html#zasieg" class="nav-link">Zasięg</a>
+                <a href="index.html#o-nas" class="nav-link">O firmie</a>
+                <a href="index.html#facebook" class="nav-link">Aktualności</a>
+                <a href="index.html#partnerzy" class="nav-link">Partnerzy</a>
+                <a href="tel:+48884689721" class="nav-link btn-nav-cta">
+                    <i data-lucide="phone" style="width:16px;height:16px"></i> 884 689 721
+                </a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="assets/hero_optimized.jpg" alt="NJ-Truck Hero Image" id="heroImg" fetchpriority="high" loading="eager" width="1024" height="1024">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge anim-fade" data-anim="fade-up" data-delay="0">
+                <i data-lucide="shield-check" style="width:14px;height:14px"></i>
+                Zaufany partner w transporcie
+            </div>
+            <h1 class="hero-title anim-fade" data-anim="fade-up" data-delay="100">
+                Transport Materiałów (do 3,5t)<br>
+                <span class="text-gradient">Usługi Koparko-Ładowarką</span>
+            </h1>
+            <p class="hero-desc anim-fade" data-anim="fade-up" data-delay="200">
+                Zwinny transport materiałów budowlanych bez niszczenia nawierzchni oraz kompleksowe usługi koparko-ładowarką na terenie
+                Katowic, Bierunia, Kobiora, Pszczyny, Tychów i Mikołowa.
+            </p>
+            <div class="hero-actions anim-fade" data-anim="fade-up" data-delay="300">
+                <a href="tel:+48884689721" class="btn btn-primary">
+                    <i data-lucide="phone" style="width:18px;height:18px"></i>
+                    Zadzwoń: 884 689 721
+                </a>
+                <a href="#uslugi" class="btn btn-ghost">
+                    <i data-lucide="layers" style="width:18px;height:18px"></i>
+                    Nasza oferta
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ========== STATS BAR ========== -->
+    <section class="stats-bar">
+        <div class="container stats-grid">
+            <div class="stat-item anim-fade" data-anim="fade-up" data-delay="0">
+                <div class="stat-icon"><i data-lucide="phone-call" style="width:24px;height:24px"></i></div>
+                <div>
+                    <h3>884 689 721</h3>
+                    <p>Zadzwoń teraz</p>
+                </div>
+            </div>
+            <div class="stat-item anim-fade" data-anim="fade-up" data-delay="100">
+                <div class="stat-icon"><i data-lucide="truck" style="width:24px;height:24px"></i></div>
+                <div>
+                    <h3>Transport</h3>
+                    <p>Materiały do 3,5 tony</p>
+                </div>
+            </div>
+            <div class="stat-item anim-fade" data-anim="fade-up" data-delay="200">
+                <div class="stat-icon"><i data-lucide="shovel" style="width:24px;height:24px"></i></div>
+                <div>
+                    <h3>Usługi</h3>
+                    <p>Koparko-Ładowarką</p>
+                </div>
+            </div>
+            <div class="stat-item anim-fade" data-anim="fade-up" data-delay="300">
+                <div class="stat-icon"><i data-lucide="map-pin" style="width:24px;height:24px"></i></div>
+                <div>
+                    <h3>6+ miast</h3>
+                    <p>w zasięgu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== USŁUGI ========== -->
+    <section class="services" id="uslugi">
+        <div class="container">
+            <div class="section-header anim-fade" data-anim="fade-up">
+                <span class="section-tag">Co robimy</span>
+                <h2 class="section-title">Nasze <span class="text-gradient">Usługi</span></h2>
+                <p class="section-desc">Specjalizujemy się w transporcie materiałów budowlanych oraz profesjonalnych
+                    pracach koparko-ładowarką.</p>
+            </div>
+            <div class="services-grid services-grid-2">
+                <div class="service-card service-card-lg anim-fade" data-anim="fade-up" data-delay="0" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrap">
+                        <i data-lucide="truck"></i>
+                    </div>
+                    <h3>Transport Materiałów (do 3,5t)</h3>
+                    <p>
+                        Przewozimy wszystko, co wejdzie na pakę: materiały sypkie, piasek, kruszywa, gruz, ziemię, a także kostkę brukową, płytki i inne ładunki do <strong>maksymalnie 3,5 tony</strong>.
+                    </p>
+                    <div class="service-highlight" style="background: rgba(255, 107, 0, 0.05); border-left: 3px solid var(--primary); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0;">
+                        <strong>Nasz największy atut:</strong> Transport realizujemy mniejszym pojazdem, który bez problemu wjedzie na małe działki, wąskie ogródki i w niedostępne miejsca. <strong>Nie niszczymy płytek, kostki ani wjazdów</strong> – w przeciwieństwie do ciężkich aut ciężarowych!
+                    </div>
+                    <ul class="service-features">
+                        <li><i data-lucide="check" style="width:14px;height:14px"></i> Zwinny wjazd w trudne miejsca</li>
+                        <li><i data-lucide="check" style="width:14px;height:14px"></i> Przewóz do max 3,5 tony</li>
+                        <li><i data-lucide="check" style="width:14px;height:14px"></i> Materiały sypkie, kostka, płytki</li>
+                        <li><i data-lucide="check" style="width:14px;height:14px"></i> Brak uszkodzeń nawierzchni</li>
+                    </ul>
+                </div>
+                <div class="service-card service-card-lg anim-fade" data-anim="fade-up" data-delay="150" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrap">
+                        <i data-lucide="hard-hat"></i>
+                    </div>
+                    <h3>Usługi Koparko-Ładowarką</h3>
+                    <p>Profesjonalne prace ziemne z wykorzystaniem nowoczesnej koparko-ładowarki — wykopy pod
+                        fundamenty, równanie terenu, załadunek materiałów sypkich i wiele więcej.</p>
+                    <ul class="service-features">
+                        <li><i data-lucide="check" style="width:14px;height:14px"></i> Wykopy pod fundamenty</li>
+                        <li><i data-lucide="check" style="width:14px;height:14px"></i> Równanie terenu</li>
+                        <li><i data-lucide="check" style="width:14px;height:14px"></i> Załadunek materiałów</li>
+                        <li><i data-lucide="check" style="width:14px;height:14px"></i> Prace porządkowe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ZASIĘG PRACY ========== -->
+    <section class="coverage" id="zasieg">
+        <div class="container">
+            <div class="section-header anim-fade" data-anim="fade-up">
+                <span class="section-tag">Gdzie działamy</span>
+                <h2 class="section-title">Zasięg <span class="text-gradient">Pracy</span></h2>
+                <p class="section-desc">Obsługujemy klientów na terenie tych miast i okolic.</p>
+            </div>
+            <div class="coverage-grid">
+                <div class="coverage-card anim-fade" data-anim="fade-up" data-delay="0" data-tilt>
+                    <i data-lucide="map-pin" style="width:20px;height:20px"></i>
+                    <span>Katowice</span>
+                </div>
+                <div class="coverage-card anim-fade" data-anim="fade-up" data-delay="60" data-tilt>
+                    <i data-lucide="map-pin" style="width:20px;height:20px"></i>
+                    <span>Bieruń</span>
+                </div>
+                <div class="coverage-card anim-fade" data-anim="fade-up" data-delay="120" data-tilt>
+                    <i data-lucide="map-pin" style="width:20px;height:20px"></i>
+                    <span>Kobiór</span>
+                </div>
+                <div class="coverage-card anim-fade" data-anim="fade-up" data-delay="180" data-tilt>
+                    <i data-lucide="map-pin" style="width:20px;height:20px"></i>
+                    <span>Pszczyna</span>
+                </div>
+                <div class="coverage-card anim-fade" data-anim="fade-up" data-delay="240" data-tilt>
+                    <i data-lucide="map-pin" style="width:20px;height:20px"></i>
+                    <span>Tychy</span>
+                </div>
+                <div class="coverage-card anim-fade" data-anim="fade-up" data-delay="300" data-tilt>
+                    <i data-lucide="map-pin" style="width:20px;height:20px"></i>
+                    <span>Mikołów</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== O FIRMIE ========== -->
+    <section class="about" id="o-nas">
+        <div class="container about-grid">
+            <div class="about-visual anim-fade" data-anim="fade-right">
+                <div class="about-img-wrap">
+                        <img src="assets/logo_optimized.png" alt="NJ-Truck" class="about-logo-img" width="160" height="160" loading="lazy">
+                    <div class="about-img-ring"></div>
+                </div>
+            </div>
+            <div class="about-content anim-fade" data-anim="fade-left">
+                <span class="section-tag">Kim jesteśmy</span>
+                <h2 class="section-title">O firmie <span class="text-gradient">NJ-Truck</span></h2>
+                <p>Firma NJ-Truck Tomasz Kot specjalizuje się w transporcie materiałów budowlanych oraz profesjonalnych
+                    usługach koparko-ładowarką. Działamy na terenie Katowic, Bierunia, Kobiora, Pszczyny, Tychów i
+                    Mikołowa.</p>
+                <p>Stawiamy na rzetelność, terminowość i pełne zadowolenie klienta. Nasz nowoczesny sprzęt pozwala na
+                    bezpieczne i sprawne realizowanie zleceń.</p>
+                <ul class="check-list">
+                    <li><span class="check-icon"><i data-lucide="check" style="width:16px;height:16px"></i></span>
+                        Małe pojazdy – nie niszczymy wjazdów i kostki</li>
+                    <li><span class="check-icon"><i data-lucide="check" style="width:16px;height:16px"></i></span>
+                        Zwinny wjazd na wąskie działki i ogródki</li>
+                    <li><span class="check-icon"><i data-lucide="check" style="width:16px;height:16px"></i></span>
+                        Wszechstronny transport ładunków do 3,5 tony</li>
+                </ul>
+                <a href="tel:+48884689721" class="btn btn-primary" style="margin-top:1.5rem;">
+                    <i data-lucide="phone" style="width:18px;height:18px"></i> Zadzwoń: 884 689 721
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FACEBOOK ========== -->
+    <section class="facebook-section" id="facebook">
+        <div class="container">
+            <div class="section-header anim-fade" data-anim="fade-up">
+                <span class="section-tag">Śledź nas</span>
+                <h2 class="section-title">Aktualności z <span class="text-gradient">Facebooka</span></h2>
+                <p class="section-desc">Bądź na bieżąco z naszymi realizacjami i ofertami.</p>
+            </div>
+            <div class="fb-embed-wrap anim-fade" data-anim="fade-up" data-delay="100">
+                <div class="fb-embed-inner" id="fbEmbed">
+                    <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61581209050284&tabs=timeline&width=500&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
+                        width="500" height="800" style="border:none;overflow:hidden;max-width:100%" scrolling="no"
+                        frameborder="0" allowfullscreen
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="fb-cta">
+                    <a href="https://www.facebook.com/profile.php?id=61581209050284" target="_blank" rel="noopener"
+                        class="btn btn-ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:6px"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3.61l.39-4H14V7a1 1 0 0 1 1-1h3z"/></svg>
+                        Zobacz więcej na Facebooku
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PARTNERZY ========== -->
+    <section class="partners" id="partnerzy">
+        <div class="container">
+            <div class="section-header anim-fade" data-anim="fade-up" style="margin-bottom: 2.5rem;">
+                <span class="section-tag">Współpraca</span>
+                <h2 class="section-title">Nasi <span class="text-gradient">Partnerzy</span></h2>
+                <p class="section-desc">Współpracujemy z rzetelnymi firmami, aby dostarczać usługi na najwyższym poziomie.</p>
+            </div>
+            <div class="partners-row anim-fade" data-anim="fade-up" data-delay="100">
+                <a href="https://drokan-1.pl/" target="_blank" rel="noopener" class="partner-logo-link" title="DROKAN-1 - Usługi brukarskie">
+                    <img src="assets/partner_drokan.png" alt="DROKAN-1" class="logo-drokan" loading="lazy">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61573181715064" target="_blank" rel="noopener" class="partner-logo-link" title="MALKO BRUK - Usługi brukarskie i odwodnienia">
+                    <img src="assets/partner_malko.png" alt="MALKO BRUK" class="logo-malko" loading="lazy">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== KONTAKT ========== -->
+    <section class="contact" id="kontakt">
+        <div class="container">
+            <div class="section-header anim-fade" data-anim="fade-up">
+                <span class="section-tag">Napisz do nas</span>
+                <h2 class="section-title">Skontaktuj <span class="text-gradient">się z nami</span></h2>
+                <p class="section-desc">Zadzwoń, aby uzyskać bezpłatną wycenę. Jesteśmy do Twojej dyspozycji.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-cards anim-fade" data-anim="fade-up" data-delay="0">
+                    <a href="tel:+48884689721" class="contact-card-link" data-tilt>
+                        <div class="contact-card-icon"><i data-lucide="phone"></i></div>
+                        <h4>Telefon</h4>
+                        <span>884 689 721</span>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61581209050284" target="_blank" rel="noopener"
+                        class="contact-card-link" data-tilt>
+                        <div class="contact-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3.61l.39-4H14V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </div>
+                        <h4>Facebook</h4>
+                        <span>NJ-Truck</span>
+                    </a>
+                    <div class="contact-card-link" data-tilt>
+                        <div class="contact-card-icon"><i data-lucide="map-pin"></i></div>
+                        <h4>Siedziba</h4>
+                        <span>Kobiór</span>
+                    </div>
+                    <div class="contact-card-link" data-tilt>
+                        <div class="contact-card-icon"><i data-lucide="file-text"></i></div>
+                        <h4>Dane firmy</h4>
+                        <span>NIP: 6462621863<br>NJ-Truck Tomasz Kot</span>
+                    </div>
+                </div>
+                <div class="contact-cta-box anim-fade" data-anim="fade-up" data-delay="150">
+                    <div class="cta-glow"></div>
+                    <h3>Potrzebujesz szybkiej wyceny?</h3>
+                    <p>Zadzwoń teraz — odpowiadamy natychmiast.</p>
+                    <a href="tel:+48884689721" class="btn btn-primary btn-lg">
+                        <i data-lucide="phone-call" style="width:20px;height:20px"></i>
+                        884 689 721
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="assets/logo_optimized.png" alt="NJ-Truck Logo" class="logo-img" width="36" height="36">
+                    <span class="logo-text">NJ<span class="logo-accent">-Truck</span></span>
+                </a>
+                <p>Transport materiałów budowlanych i usługi koparko-ładowarką.</p>
+            </div>
+            <div class="footer-legal">
+                <a href="polityka-prywatnosci.html">Polityka prywatności</a>
+                <a href="regulamin.html">Regulamin</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 NJ-Truck Tomasz Kot. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Wróć na górę">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <!-- Floating Cookie Settings -->
+    <button class="floating-cookie-btn openCookieSettings" aria-label="Ustawienia cookies">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5" />
+            <path d="M8.5 8.5v.01" />
+            <path d="M16 15.5v.01" />
+            <path d="M12 12v.01" />
+            <path d="M11 17v.01" />
+            <path d="M7 14v.01" />
+        </svg>
+    </button>
+
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content" id="cookieMain">
+            <div class="cookie-text">
+                <h4>🍪 Twoja prywatność</h4>
+                <p>Używamy plików cookies w celach niezbędnych do działania strony oraz opcjonalnych marketingowych
+                    (wyświetlanie osadzonych treści z Facebooka). Możesz zaakceptować wszystkie, odrzucić opcjonalne lub
+                    dostosować ustawienia. Szczegóły w <a href="polityka-prywatnosci.html">Polityce Prywatności</a>.</p>
+            </div>
+            <div class="cookie-actions">
+                <button class="btn btn-primary cookie-accept" id="cookieAcceptAll">Akceptuj wszystkie</button>
+                <button class="btn btn-ghost cookie-reject" id="cookieRejectAll">Odrzuć opcjonalne</button>
+                <button class="btn btn-outline cookie-manage" id="cookieManageBtn">Ustawienia</button>
+            </div>
+        </div>
+
+        <!-- Preferences panel (hidden by default) -->
+        <div class="cookie-preferences" id="cookiePreferences">
+            <div class="cookie-text" style="width:100%; margin-bottom:1.5rem;">
+                <h4>Ustawienia plików cookies</h4>
+                <p>Wybierz, na jakie pliki cookies wyrażasz zgodę.</p>
+            </div>
+            <div class="cookie-options">
+                <div class="cookie-option">
+                    <div class="cookie-option-header">
+                        <strong>Niezbędne</strong>
+                        <span class="cookie-always-on">Zawsze włączone</span>
+                    </div>
+                    <p class="cookie-option-desc">Są konieczne do prawidłowego funkcjonowania strony i nie można ich
+                        wyłączyć.</p>
+                </div>
+                <div class="cookie-option">
+                    <div class="cookie-option-header">
+                        <strong>Marketingowe (Facebook)</strong>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="cookieMarketingToggle">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                    <p class="cookie-option-desc">Pozwalają na wyświetlanie osadzonego widgetu Facebook Page Plugin.</p>
+                </div>
+            </div>
+            <div class="cookie-actions" style="margin-top:1.5rem; justify-content:flex-end;">
+                <button class="btn btn-primary" id="cookieSavePreferences">Zapisz wybrane</button>
+                <button class="btn btn-ghost" id="cookieBackBtn">Wróć</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
