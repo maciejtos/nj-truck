@@ -914,6 +914,7 @@ h4 {
     transition: all 0.4s var(--ease);
     width: 340px;
     height: 140px;
+    overflow: hidden;
 }
 
 .partner-logo-link img {
@@ -931,6 +932,11 @@ h4 {
 
 .logo-malko {
     width: 280px;
+    transform: scale(2.6);
+}
+
+.partner-logo-link:hover .logo-malko {
+    transform: scale(2.7);
 }
 
 .partner-logo-link:hover {
@@ -1689,6 +1695,11 @@ footer {
 
     .logo-malko {
         width: 220px;
+        transform: scale(2.4);
+    }
+
+    .partner-logo-link:hover .logo-malko {
+        transform: scale(2.5);
     }
 
     .logo-drokan {
