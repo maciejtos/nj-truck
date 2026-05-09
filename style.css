@@ -917,6 +917,8 @@ h4 {
 }
 
 .partner-logo-link img {
+    max-width: 100%;
+    max-height: 100%;
     height: auto;
     object-fit: contain;
     filter: grayscale(100%) opacity(0.6) drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
@@ -1681,8 +1683,7 @@ footer {
     .partner-logo-link {
         width: 100%;
         max-width: 340px;
-        height: auto;
-        min-height: 120px;
+        height: 120px;
         padding: 1.5rem;
     }
 
