@@ -158,6 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function blockFacebookEmbed() {
         const fbEmbed = document.getElementById('fbEmbed');
         if (fbEmbed) {
+            fbEmbed.classList.add('consent-needed');
             const iframe = fbEmbed.querySelector('iframe');
             if (iframe && iframe.src) {
                 iframe.dataset.src = iframe.src;
@@ -192,6 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function unblockFacebookEmbed() {
         const fbEmbed = document.getElementById('fbEmbed');
         if (fbEmbed) {
+            fbEmbed.classList.remove('consent-needed');
             const iframe = fbEmbed.querySelector('iframe');
             if (iframe && iframe.dataset.src) {
                 iframe.src = iframe.dataset.src;
