@@ -904,20 +904,20 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .partner-logo-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 1.5rem;
     background: linear-gradient(165deg, rgba(24, 27, 38, .85), rgba(16, 18, 26, .95));
     border: 1px solid var(--border);
     border-radius: var(--radius);
     transition: all 0.4s var(--ease);
-    width: 300px;
-    height: 140px;
+    width: 250px;
+    height: 120px;
     overflow: hidden;
 }
 
@@ -932,6 +932,10 @@ h4 {
 
 .logo-drokan {
     width: 110px;
+}
+
+.logo-kkim {
+    width: 140px;
 }
 
 .logo-bruk-pol {
